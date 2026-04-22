@@ -68,6 +68,67 @@
     </a>
   </li>
   {% endif %}
+  {% if site.x_username %}
+  <li>
+    <a target="_blank" href="https://x.com/{{ site.x_username }}">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <img src="https://cdn.simpleicons.org/x/FFFFFF" alt="X" style="width:14px;height:14px;position:absolute;left:9px;top:9px;">
+      </span>
+    </a>
+  </li>
+  {% endif %}
+  {% if site.bilibili_username %}
+  <li>
+    <a target="_blank" href="https://space.bilibili.com/{{ site.bilibili_username }}">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <img src="https://cdn.simpleicons.org/bilibili/FFFFFF" alt="Bilibili" style="width:14px;height:14px;position:absolute;left:9px;top:9px;">
+      </span>
+    </a>
+  </li>
+  {% endif %}
+  {% if site.YouTube_username %}
+  {% assign yt_handle = site.YouTube_username | remove_first: '@' %}
+  <li>
+    <a target="_blank" href="https://www.youtube.com/@{{ yt_handle }}">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <img src="https://cdn.simpleicons.org/youtube/FFFFFF" alt="YouTube" style="width:14px;height:14px;position:absolute;left:9px;top:9px;">
+      </span>
+    </a>
+  </li>
+  {% endif %}
+  {% if site.douyin_username %}
+  <li>
+    <a target="_blank" href="https://www.douyin.com/user/{{ site.douyin_username }}">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <img src="https://cdn.simpleicons.org/tiktok/FFFFFF" alt="Douyin" style="width:14px;height:14px;position:absolute;left:9px;top:9px;">
+      </span>
+    </a>
+  </li>
+  {% endif %}
+  {% if site.xiaohongshu_username %}
+  <li>
+    <a target="_blank" href="https://www.xiaohongshu.com/user/profile/{{ site.xiaohongshu_username }}">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <img src="https://cdn.simpleicons.org/xiaohongshu/FFFFFF" alt="Xiaohongshu" style="width:14px;height:14px;position:absolute;left:9px;top:9px;">
+      </span>
+    </a>
+  </li>
+  {% endif %}
+  {% if site.kuaishou_username %}
+  <li>
+    <a target="_blank" href="https://www.kuaishou.com/profile/{{ site.kuaishou_username }}">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <img src="https://cdn.simpleicons.org/kuaishou/FFFFFF" alt="Kuaishou" style="width:14px;height:14px;position:absolute;left:9px;top:9px;">
+      </span>
+    </a>
+  </li>
+  {% endif %}
   {% if site.linkedin_username %}
   <li>
     <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
