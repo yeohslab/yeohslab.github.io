@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "《局外人》推荐语"
-subtitle: "世界并不回答你，但你仍可以诚实地活"
+subtitle: "世界并不回答你，但你仍可以诚实地活着"
 date: 2026-04-21 20:00:00
 author: "Yeoh"
 header-style: text
@@ -13,7 +13,7 @@ tags:
   - 存在主义
 ---
 
-> 最疲惫、最麻木的时候，渴望得到清醒的时候, 应该去理解局外人的世界。
+> The world doesn't answer you, but you can still live honestly.
 
 初读《局外人》，会先被主人公的冷漠击中：默尔索像一块没有温度的石头，对母亲的去世、对爱情、对社会礼仪，都显得迟钝甚至无动于衷。  
 但这本书真正锋利的地方，不在“冷漠”，而在“诚实”。
